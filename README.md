@@ -47,7 +47,7 @@ localhost/rssfeed4/public/?category=YOUR_CATEGORY
 
 ###### Command line to create new category with Shell
 ```
-php bin/console app:create-feed <url> <category>
+php bin/console app:create-feed <url> <category> <titile>
 ```
 
 
