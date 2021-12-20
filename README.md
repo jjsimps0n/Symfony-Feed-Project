@@ -18,8 +18,15 @@
     
     DATABASE_URL="mysql://YOUR_MYSQL_USERNAME:YOUR_MYSQL_PASSWORD@127.0.0.1:3306/feeds"
     ```
-4. Create Database with feeds.sql file code.
-5. DONE!
+4. Create database with command line
+    ```
+    php bin/console doctrine:database:create 
+    ```
+5. Import feeds.sql file with command line
+    ```
+    php bin/console doctrine:database:import feeds.sql
+    ```
+7. DONE!
 
 ## Usage
 
