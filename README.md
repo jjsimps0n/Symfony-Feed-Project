@@ -30,19 +30,6 @@
 
 ## Usage
 
-###### How to import XML RSS
-
-To import http://www.feedforall.com/sample.xml XML file into database use url
-
-  ```
-  localhost/rssfeed4/public/importfeed
-  ```
-  > You should receive message ``` Successfully imported new feed, with id: {NEW FEED ID} ```
-
-  After that feed will show at ` localhost/rssfeed4/public ` page table.
-
-<br>
-
 ###### How to get list of feed summaries for the specific category
 
 If you want to get specific category feeds, you need to pass URL parameter.
@@ -52,9 +39,9 @@ localhost/rssfeed4/public/?category=YOUR_CATEGORY
 ```
 <br>
 
-###### Command line to create new category with Shell
+###### Command line to create new category from XML file with Shell
 ```
-php bin/console app:create-feed <url> <category> <titile>
+php bin/console app:create-feed <url> <category>
 ```
 
 
