@@ -10,7 +10,7 @@
 
 ### Installation
 
-1. Download project .zip folder
+1. Download rssfeed.zip file 
 2. Exctract project to htdocs.
 3. Connect project to your MySQL by changing .env file.
     ```
